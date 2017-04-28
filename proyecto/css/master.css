@@ -1,0 +1,107 @@
+.portada{
+width: 100%;
+height:25%;
+}
+body{
+background-image: url("../images/madera.jpg");}
+p{
+  color: white;
+  font-size: 18px;}
+.face,.twit,.inst{
+  width:40px;
+  height:40px;
+}
+.face{
+	background-image: url("../images/face.png");
+}
+.twit{
+	background-image: url("../images/twitter.png");
+}
+.inst{
+	background-image: url("../images/instagram.png");
+}
+footer{
+  background-color: black;
+  color: grey;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+}
+h3,h1,h2{
+  color: #24A0C9;  font-family: striped;
+  background-color: black;
+}
+.columna{
+  font-size: 26px;
+  color: red;
+}
+.marca{
+  color: white;
+}
+.modelo{
+  color: orange;
+}
+.precio{
+  color: green;
+}
+.marca,.modelo,.precio{
+  font-size: 20px;
+  border:2px groove;
+}
+.lista{
+  font-family: striped;
+  font-size: 32px;
+  color: lightblue;
+  text-decoration: none;
+  background-color: black;
+
+}
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+  .publi { display: none; }
+  .navbuton{
+    font-size: 10px;
+  }
+
+}
+@media screen and (min-width:1024px) {
+  .navbar-header{ display: none;}
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: left;
+    margin-left: 27%;
+    vertical-align: top;
+  }
+}
+@font-face {
+  font-family: alice;
+  src: url(../fonts/alice.ttf);
+}
+@font-face {
+  font-family: striped;
+  src: url(../fonts/striped.ttf);
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  font-size: 42px;
+  text-align: justify;
+}
+.contact{
+  border: solid 1px lightblue;
+}
+table,.navbuton{
+  font-family: alice;
+}
+.navbuton{
+  font-size: 25px;
+}
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.btnBorraFila{
+  color: red;
+}
